@@ -46,5 +46,8 @@
   "bugs": {
     "url": "https://github.com/JaydipBarvaliya/jaydip-portfolio/issues"
   },
-  "homepage": "https://github.com/JaydipBarvaliya/jaydip-portfolio#readme"
+  "homepage": "https://github.com/JaydipBarvaliya/jaydip-portfolio#readme", 
+  "engines" : { 
+    "node" : "16.0.0" 
+  }
 }
