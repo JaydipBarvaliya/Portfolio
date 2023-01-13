@@ -39,12 +39,12 @@
   "main": ".eslintrc.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Natain/natain-portfolio.git"
+    "url": "git+https://github.com/JaydipBarvaliya/jaydip-portfolio.git"
   },
   "author": "Natain Bogdan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Natain/natain-portfolio/issues"
+    "url": "https://github.com/JaydipBarvaliya/jaydip-portfolio/issues"
   },
-  "homepage": "https://github.com/Natain/natain-portfolio#readme"
+  "homepage": "https://github.com/JaydipBarvaliya/jaydip-portfolio#readme"
 }
