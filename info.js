@@ -1,5 +1,5 @@
 let info = {
-  name: "Natain Bogdan",
+  name: "Jaydip Barvaliya",
   logo_name: "Bogdan",
   flat_picture: require("./src/assets/potrait.jpg"),
   config: {
@@ -11,8 +11,8 @@ let info = {
   description:
     "I'm a Front-end  Web Developer with a passion for building projects that are used routinely. Building applications in JavaScript. Former supervisor and finance professional who's eager to enhance a company's user experience. ",
   links: {
-    linkedin: "https://www.linkedin.com/in/natain/",
-    github: "https://github.com/Natain",
+    linkedin: "https://www.linkedin.com/in/jaydip-barvaliya/",
+    github: "https://github.com/JaydipBarvaliya",
     angellist: "https://angel.co/u/Natain-Bogdan",
     resume:
       "https://github.com/Natain/Resume/blob/main/Resume-Natain-Bogdan.pdf"
