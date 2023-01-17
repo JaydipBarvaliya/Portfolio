@@ -179,14 +179,14 @@ export default {
     };
   },
   created() {
-    for (var i = 0; i < this.number; i++) {
+    for (let i = 0; i < this.number; i++) {
       this.portfolio_info.push(this.all_info[i]);
     }
   },
   watch: {
     number() {
       this.portfolio_info = [];
-      for (var i = 0; i < this.number; i++) {
+      for (let i = 0; i < this.number; i++) {
         this.portfolio_info.push(this.all_info[i]);
       }
     },

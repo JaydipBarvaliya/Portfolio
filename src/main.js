@@ -8,15 +8,19 @@ import VueScrollTo from 'vue-scrollto'
 import VueRouter from 'vue-router'
 import VTooltip from 'v-tooltip'
 
-var VueCookie = require('vue-cookie');
+let VueCookie = require('vue-cookie');
 
-Vue.use(VTooltip)
-Vue.use(VueRouter)
-Vue.use(VueScrollTo)
-Vue.use(VueCookie);
-Vue.use(VueParallaxJs)
+Vue?.use(VTooltip)
+Vue?.use(VueRouter)
+Vue?.use(VueScrollTo)
+Vue?.use(VueCookie);
+Vue?.use(VueParallaxJs)
 
-Vue.config.productionTip = false
+if( Vue != undefined && Vue.config != undefined){
+  Vue.config.productionTip = false
+}
+
+
 
 const routes = [
   { path: '/'}
@@ -29,9 +33,13 @@ const router = new VueRouter({
 })
 
 new Vue({
+  
   created () {
     AOS.init()
   },
+
   router,
+  
   render: h => h(App),
+
 }).$mount('#app')
