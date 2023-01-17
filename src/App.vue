@@ -8,7 +8,7 @@
       <Portfolio id="portfolio" :nightMode="nightMode" />
       <Recommendation :nightMode="nightMode" />
       <Contact id="contact" :nightMode="nightMode" />
-      <Footer :nightMode="nightMode" />
+      <CustomFooter :nightMode="nightMode" />
     </div>
   </div>
 </template>
@@ -21,7 +21,7 @@ import Skills from "./components/Skills";
 import Portfolio from "./components/Portfolio";
 import Recommendation from "./components/Recommendation";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import CustomFooter from "./components/CustomFooter";
 
 import info from "../info";
 
@@ -35,7 +35,7 @@ export default {
     Portfolio,
     Recommendation,
     Contact,
-    Footer,
+    CustomFooter,
   },
   data() {
     return {
