@@ -11,7 +11,7 @@
     "html-loader": "4.2.0",
     "update-browserslist-db": "1.0.10",
     "caniuse-lite": "1.0.30001444",
-    "@chenfengyuan/vue-carousel": "^1.0.5",
+    "@chenfengyuan/vue-carousel": "2.0.0",
     "aos": "^3.0.0-beta.6",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "core-js": "3.27.1",
