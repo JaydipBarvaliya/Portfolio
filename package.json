@@ -11,6 +11,7 @@
     "html-loader": "4.2.0",
     "update-browserslist-db": "1.0.10",
     "caniuse-lite": "1.0.30001444",
+    "vue": "^3.0.0",
     "@chenfengyuan/vue-carousel": "2.0.0",
     "aos": "^3.0.0-beta.6",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
@@ -19,13 +20,11 @@
     "material-icons": "^0.3.1",
     "serve": "^14.1.2",
     "v-tooltip": "^2.0.3",
-    "vue": "^3.0.0",
     "vue-cookie": "^1.1.4",
     "vue-nav-tabs": "^0.5.7",
     "vue-parallax-js": "^0.2.3",
     "vue-router": "^3.3.4",
     "vue-scrollto": "^2.18.1",
-    "vue-selector": "0.0.1",
     "vueperslides": "^2.10.2"
   },
   "devDependencies": {
