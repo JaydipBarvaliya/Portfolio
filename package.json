@@ -37,7 +37,6 @@
   },
   "keywords": [],
   "description": "> This is a simple, minimal and responsive personal website template, built using vue-js, html and css.",
-  "main": ".eslintrc.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JaydipBarvaliya/jaydip-portfolio.git"
