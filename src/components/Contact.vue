@@ -167,7 +167,7 @@ export default {
             config.emailjs.userID
           )
           .then(
-            (result) => {
+            () => {
               this.showSnackbar = true;
               this.snackbarMessage = "Thanks! Message recieved.";
               this.snackbarColor = "#1aa260";
