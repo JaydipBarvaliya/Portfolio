@@ -176,7 +176,7 @@ export default {
               this.text = "";
               this.name = "";
             },
-            (error) => {
+            () => {
               this.showSnackbar = true;
               this.snackbarMessage = "Oops! Something went wrong.";
               this.snackbarColor = "rgb(212, 149, 97)";
