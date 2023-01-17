@@ -194,7 +194,7 @@ let info = {
    recommendations: [
     {
       title:
-        "In his internship, Bogdan Natain has demonstrated excellent learning ability, and with a dedicated, task oriented approach, he was able to complete his assignment ahead of time.",
+        "In his internship, Jaydip Barvaliya has demonstrated excellent learning ability, and with a dedicated, task oriented approach, he was able to complete his assignment ahead of time.",
       author: "Timothy Gray",
       position: "CTO",
       company: "Startup Norway As",

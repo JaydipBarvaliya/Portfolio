@@ -156,7 +156,7 @@ export default {
           user_email: this.email,
           from_name: this.name,
           message_html: this.text,
-          to_name: "Natain Bogdan",
+          to_name: "Jaydip Barvaliya",
         };
 
         emailjs

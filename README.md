@@ -135,11 +135,11 @@ The **contact** section of the template makes use of this API called [emailjs](h
 Reach out to me at one of the following places!
 
 - Website at <a href="https://natain-portfolio.netlify.app/" target="_blank">`https://natain-portfolio.netlify.app/`</a>
-- LinkedIn at <a href="https://www.linkedin.com/in/natain//" target="_blank">`Natain Bogdan`</a>
+- LinkedIn at <a href="https://www.linkedin.com/in/natain//" target="_blank">`Jaydip Barvaliya`</a>
 
 ---
 
 
 
 
-- Copyright 2021 © <a href="https://github.com/Natain/natain-portfolio/tree/main" target="_blank">Natain Bogdan</a>
+- Copyright 2021 © <a href="https://github.com/Natain/natain-portfolio/tree/main" target="_blank">Jaydip Barvaliya</a>
