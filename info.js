@@ -1,6 +1,6 @@
 let info = {
   name: "Jaydip Barvaliya",
-  logo_name: "Bogdan",
+  logo_name: "Jaydip",
   flat_picture: require("./src/assets/potrait.jpg"),
   config: {
     use_cookies: true,
@@ -13,7 +13,6 @@ let info = {
   links: {
     linkedin: "https://www.linkedin.com/in/jaydip-barvaliya/",
     github: "https://github.com/JaydipBarvaliya",
-    angellist: "https://angel.co/u/Natain-Bogdan",
     resume:
       "https://github.com/Natain/Resume/blob/main/Resume-Natain-Bogdan.pdf"
   },
