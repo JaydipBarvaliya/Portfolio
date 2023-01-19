@@ -13,8 +13,7 @@ let info = {
   links: {
     linkedin: "https://www.linkedin.com/in/jaydip-barvaliya/",
     github: "https://github.com/JaydipBarvaliya",
-    resume:
-      "https://github.com/Natain/Resume/blob/main/Resume-Natain-Bogdan.pdf"
+    resume: "https://github.com/JaydipBarvaliya/Resume/blob/main/Jaydip_Resume.pdf"
   },
   education: [
     {
