@@ -46,6 +46,8 @@
             >
               <i class="fa fa-file"></i>
             </button>
+
+
           </div>
         </div>
       </div>
@@ -55,6 +57,7 @@
 
 <script>
 import info from "../../info";
+
 export default {
   name: "Home",
   components: {
@@ -71,10 +74,11 @@ export default {
       name: info.name,
       linkedin: info.links.linkedin,
       github: info.links.github,
-      resume: info.links.resume
+      resume: info.links.resume,
     };
   },
   methods: {
+
     open(link) {
       switch (link) {
         case "linkedin":

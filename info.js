@@ -17,11 +17,11 @@ let info = {
   },
   education: [
     {
-      name: "Sapienza Università di Roma",
-      place: "italy",
-      date: "May, 2009 - May, 2011",
-      degree: "Economics Science",
-      gpa: "3.7/4.0",
+      name: "St Clair College",
+      place: "Toronto, Canada",
+      date: "May, 2021 - Aug, 2022",
+      degree: "Data Analytics For Business",
+      gpa: "3.9/4.0",
 
       skills: [
         // "Skills gained:",
@@ -34,44 +34,24 @@ let info = {
       ]
     },
     {
-      name: "Ilbah workshops",
-      course:"Full Stack Developer",
-      place: "Bucharest/Romania",
-      date: "May, 2021 - Oct, 2021",
-      degree: "Bachelors in Programmer Help, cod COR 351201",
-      gpa: "8.5/10.0",
-      description:
-        "",
-      skills: [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "OOP",
-        "PHP",
-        "MySql",
-       "Laravel"
-      ]
+      name: "Parul University",
+      course:"Information & Technology",
+      place: "Gujaratm, India",
+      date: "Apr, 2014 - Apr, 2018",
+      degree: "Bachelor Of Engineering",
+      gpa: "8.0/9",
+      description:""
     }
   ],
   experience: [
 
     {
-      name: "Freelancer",
-      place: "Bucharest, Romania",
+      name: "Sr. Software Engineer I at Cognizant",
+      place: "Mississauga, Canada",
       date: "Aug, 2021 - Present",
-      position: "Full Stack Web Developer",
-      description:
-        "Developing Front-end website architecture.Designing user interactions on web pages.Ensuring responsiveness of applications.Working alongside graphic designers for web design features.Seeing through a project from conception to finished product.Staying abreast of developments in web applications and programming languages. Degree: Program Help Cod COR 351201.Strong organizational and project management skills.Proficiency with fundamental Front-end languages such as HTML, CSS, and JavaScript.Familiarity with JavaScript frameworks such as  React.js, and Vue.js.",
-        skills: [
-          "HTML5",
-          "CSS3",
-          "JavaScript",
-          "Bootstrap",
-          "React.js",
-          "Vue.js",
-
-
-        ]
+      position: "",
+      description:"Demo Description",
+      skills: []
     },
 
   ],
@@ -79,12 +59,11 @@ let info = {
     {
       title: "languages",
       info: [
-        "Javascript",
-        "CSS",
-        "HTML5"
+        "Spring-Boot",
+        "Hibernate",
 
       ],
-      icon: "fa fa-code"
+      icon: "fa fa-aws"
     },
     {
       title: "data frameworks",
