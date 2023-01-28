@@ -5,7 +5,7 @@
       <Home :nightMode="nightMode" />
       <About id="about" :nightMode="nightMode" />
       <Skills id="skills" :nightMode="nightMode" />
-      <Portfolio id="portfolio" :nightMode="nightMode" />
+      <Certificate id="certificate" :nightMode="nightMode" />
       <Recommendation :nightMode="nightMode" />
       <Contact id="contact" :nightMode="nightMode" />
       <Footer :nightMode="nightMode" />
@@ -18,7 +18,7 @@ import Navbar from "./components/Navbar.vue";
 import Home from "./components/Home";
 import About from "./components/About";
 import Skills from "./components/Skills";
-import Portfolio from "./components/Portfolio";
+import Certificate from "./components/Certificate";
 import Recommendation from "./components/Recommendation";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -32,7 +32,7 @@ export default {
     Home,
     About,
     Skills,
-    Portfolio,
+    Certificate,
     Recommendation,
     Contact,
     Footer,
