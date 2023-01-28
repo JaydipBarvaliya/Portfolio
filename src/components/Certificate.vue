@@ -8,36 +8,36 @@
     }"
   >
     <div class="container">
-      <div
-        class="text-center"
-        data-aos="fade"
-        data-aos-once="true"
-        data-aos-duration="1000"
-      >
+
+      <div class="text-center" data-aos="fade" data-aos-once="true" data-aos-duration="1000">
+       
         <span
           class="title text-center"
           :class="{ pgray: !nightMode, 'text-light': nightMode }"
-          >portfolio.</span
+          >Certifications</span
         >
       </div>
+
+      
       <hr
         width="50%"
         :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
       />
 
       <vue-tabs :activeTextColor="!nightMode ? '#535A5E' : '#dfdfdf'">
-        <v-tab title="development">
+
+        <v-tab>
           <br />
           <div class="row">
             <div
               class="col-xl-4 col-bg-4 col-md-6 col-sm-12"
-              v-for="(portfolio, idx) in portfolio_info"
-              :key="portfolio.name"
+              v-for="(certificate, idx) in certificates"
+              :key="certificate.name"
             >
             
               <Card
                 :style="{ 'transition-delay': (idx % 3) / 4.2 + 's' }"
-                :portfolio="portfolio"
+                :certificate="certificate"
                 @show="showModalFn"
                 data-aos="fade-up"
                 :nightMode="nightMode"
@@ -55,7 +55,7 @@
           </div>
         </v-tab>
 
-        <v-tab title="design">
+        <!-- <v-tab title="design">
           <div class="row">
             <div
               v-for="(design, idx) in desgin_info"
@@ -107,7 +107,8 @@
             </div>
           </div>
           <br />
-        </v-tab>
+        </v-tab> -->
+     
       </vue-tabs>
     </div>
     <transition name="modal">
@@ -115,7 +116,7 @@
         :showModal="showModal"
         @close="closeModal"
         v-if="showModal"
-        :portfolio="modal_info"
+        :certificate="modal_info"
         :nightMode="nightMode"
       />
     </transition>
@@ -124,7 +125,7 @@
         :showModal="showDesignModal"
         @close="closeModal"
         v-if="showDesignModal"
-        :portfolio="design_modal_info"
+        :certificate="design_modal_info"
         :nightMode="nightMode"
       />
     </transition>
@@ -140,18 +141,18 @@ import info from "../../info";
 import { VueTabs, VTab } from "vue-nav-tabs";
 import "vue-nav-tabs/themes/vue-tabs.css";
 
-import { VueperSlides, VueperSlide } from "vueperslides";
+// import { VueperSlides, VueperSlide } from "vueperslides";
 import "vueperslides/dist/vueperslides.css";
 
 export default {
-  name: "Portfolio",
+  name: "Certificate",
   components: {
     Card,
     Modal,
     VueTabs,
     VTab,
-    VueperSlides,
-    VueperSlide,
+    // VueperSlides,
+    // VueperSlide,
     DesignModal,
   },
   props: {
@@ -161,33 +162,32 @@ export default {
   },
   data() {
     return {
-      all_info: info.portfolio,
+      all_info: info.certificates,
       desgin_info: info.portfolio_design,
-      portfolio_info: [],
+      certificates: [],
       showModal: false,
       showDesignModal: false,
       modal_info: {},
       design_modal_info: {},
-      number: 3,
+      number: 2,
       showBtn: "show more",
       shower: 0,
       data: [
         '<div class="example-slide">Slide 1</div>',
-        '<div class="example-slide">Slide 2</div>',
-        '<div class="example-slide">Slide 3</div>',
+        '<div class="example-slide">Slide 2</div>'
       ],
     };
   },
   created() {
     for (let i = 0; i < this.number; i++) {
-      this.portfolio_info.push(this.all_info[i]);
+      this.certificates.push(this.all_info[i]);
     }
   },
   watch: {
     number() {
-      this.portfolio_info = [];
+      this.certificates = [];
       for (let i = 0; i < this.number; i++) {
-        this.portfolio_info.push(this.all_info[i]);
+        this.certificates.push(this.all_info[i]);
       }
     },
   },
@@ -204,8 +204,8 @@ export default {
       this.showDesignModal = false;
       document.getElementsByTagName("body")[0].classList.remove("modal-open");
     },
-    showModalFn(portfolio) {
-      this.modal_info = portfolio;
+    showModalFn(certificate) {
+      this.modal_info = certificate;
       this.showModal = true;
     },
     showDesignModalFn(design_portfolio) {
@@ -229,7 +229,7 @@ export default {
         this.shower = 1;
         this.showBtn = "show less";
       } else if (this.number == this.all_info.length && this.shower == 1) {
-        var elementPosition = document.getElementById("portfolio").offsetTop;
+        var elementPosition = document.getElementById("certificate").offsetTop;
         window.scrollTo({ top: elementPosition + 5, behavior: "smooth" });
         this.shower = 0;
         this.number = 3;

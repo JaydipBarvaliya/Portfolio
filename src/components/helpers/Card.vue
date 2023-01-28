@@ -12,17 +12,17 @@
       <div style="height: 180px;">
         <img
           class="card-img-top"
-          :src="portfolio.pictures[0].img"
+          :src="certificate.pictures[0].img"
           alt="Card image cap"
         />
       </div>
       <div class="card-body pborder-top">
-        <h5 class="title2">{{ portfolio.name }}</h5>
+        <h5 class="title2">{{ certificate.name }}</h5>
         <div>
           <div class="pb-1 bheight">
             <span
               class="badge mr-2 mb-2 "
-              v-for="tech in portfolio.technologies"
+              v-for="tech in certificate.technologies"
               :key="tech"
               :class="{ 'bg-dark4': nightMode }"
               >{{ tech }}</span
@@ -31,9 +31,9 @@
           <p
             class="title3 m-0 pb-2 pheight pt-1"
             v-html="
-              portfolio.description.length > 100
-                ? portfolio.description.substring(0, 105) + '...'
-                : portfolio.description
+              certificate.description.length > 100
+                ? certificate.description.substring(0, 105) + '...'
+                : certificate.description
             "
           >
           </p>
@@ -49,8 +49,8 @@
           <button
             href="#"
             class="btn-sm btn btn-outline-secondary no-outline ml-4"
-            v-if="portfolio.visit"
-            @click.prevent="open(portfolio.visit)"
+            v-if="certificate.visit"
+            @click.prevent="open(certificate.visit)"
           >
             visit website
           </button>
@@ -64,7 +64,7 @@
 export default {
   name: "Card",
   props: {
-    portfolio: {
+    certificate: {
       type: Object,
     },
     nightMode: {
@@ -76,7 +76,7 @@ export default {
       window.open(url, "_blank");
     },
     showModal() {
-      this.$emit("show", this.portfolio);
+      this.$emit("show", this.certificate);
     },
   },
 };
