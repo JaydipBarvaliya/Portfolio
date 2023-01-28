@@ -9,7 +9,7 @@ let info = {
     }
   },
   description:
-    "I define myself as a 𝐅𝐮𝐥𝐥 𝐒𝐭𝐚𝐜𝐤 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 who also loves 𝐀𝐖𝐒 𝐜𝐥𝐨𝐮𝐝!. Always curious to learn and discuss technology. I have proficiency in different 𝐁𝐚𝐜𝐤-𝐄𝐧𝐝 & 𝐅𝐫𝐨𝐧𝐭-𝐄𝐧𝐝 𝐭𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐢𝐞𝐬 𝐚𝐧𝐝 𝐅𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤𝐬 and have worked a lot on them as well as on 𝐒𝐞𝐫𝐯𝐞𝐫 𝐈𝐧𝐟𝐫𝐚𝐬𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐞. ",
+    "I define myself as a Full Stack Developer who also harvest AWS Cloud!. Always curious to learn and discuss technology. I have proficiency in different Back-End & Front-End Technologies and Frameworks and have worked a lot on them as well as on provisioning Infrastructure as Code.",
   links: {
     linkedin: "https://www.linkedin.com/in/jaydip-barvaliya/",
     github: "https://github.com/JaydipBarvaliya",
@@ -81,6 +81,7 @@ let info = {
     {
       title: "Frameworks",
       info: [
+        "REST",
         "Spring-Boot",
         "Hibernate",
         "JPA",
@@ -93,33 +94,31 @@ let info = {
     },
     {
       title: "web technologies",
-      info: ["Vue.js",  "React.js", "Node.js", "HTML", "CSS"],
+      info: ["Vue.js", "React.js", "Node.js", "HTML", "CSS"],
       icon: "fas fa-laptop-code"
     },
   
     {
-      title: "Cloud",
-      info: ["Illustrator", "XD", "Photoshop", "Final Cut Pro"],
+      title: "AWS Cloud",
+      info: ["EC2", "Lambda", "S3", "VPC", "DynamoDB", "Route 53",  "API Gateway", "CloudFront", "ECS", "SNS", "SQS"],
       icon: "fa fa-cloud"
     },
 
     {
-      title: "databases",
+      title: "Databases",
       info: ["MySQL", "PostGreSQL",],
       icon: "fa fa-database"
     },
 
-    
+
     {
       title: "DevOps Tools",
       info: [
+        "Terraform",
         "Jenkins",
         "Docker",
-        "Android",
-        "Scrum",
-        "Heroku",
-        "Firebase",
-        "AWS S3"
+        "NIFI",
+        "Keycloak",
       ],
       icon: "fas fa-tools"
     }
