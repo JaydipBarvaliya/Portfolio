@@ -121,73 +121,63 @@ let info = {
         "Keycloak",
       ],
       icon: "fas fa-tools"
-    }
-  ],
-  portfolio: [
+    },
 
     {
-      name: "Todo-application",
-      pictures: [
-
-        {
-          img: require("./src/assets/portfolio/todo-application/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/todo-application/two.png")
-        },
-
+      title: "",
+      info: [
       ],
-      technologies: ["JavaScript", "HTML5", "Netlify"],
-      category: "web todo list  app ",
+      icon: ""
+    },
+
+    {
+      title: "Other",
+      info: [
+        "NIFI",
+        "Keycloak"
+      ],
+      icon: "fas fa-tools"
+    },
+
+    {
+      title: "",
+      info: [
+      ],
+      icon: ""
+    },
+
+  ],
+  certificates: [
+
+    {
+      name: "AWS Certified Developer - Associate",
+      pictures: [
+        {
+          img: require("./src/assets/certificates/developer/developer.jpeg")
+        }
+      ],
+      technologies: [],
+      category: "",
       github: "https://github.com/Natain/todo-application",
       visit: "https://natainbogdan.netlify.app/",
-      description:
-        "Todo Application was made to help me with the learning schedule and it seams was doing a great job this app helping me to organize all the daily tasks."
+      description:""
     },
 
 
 
     {
-      name: "Grocery-listing-react",
+      name: "AWS Certified Developer Associate ",
       pictures: [
-        // {
-        //   img: require("./src/assets/portfolio/clumpr/logo.png")
-        // },
         {
-          img: require("./src/assets/portfolio/grocery/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/grocery/two.png")
+          img: require("./src/assets/certificates/architect/architect.jpeg")
         }
       ],
-      technologies: ["CSS", "JavaScript","React.js", "HTML5",],
+      technologies: [],
       category: "Web App",
       github: "https://github.com/Natain/grocery-listing-react",
       date: "",
       visit: "https://grocery-listing-react.netlify.app/",
-      description:  "Grocery-listing-react it's a simple app that can help you doing shoppings.",
-    },
-    {
-      name: "Gitscores",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/Gitscores/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/Gitscores/two.png")
-        },
-        {
-          img: require("./src/assets/portfolio/Gitscores/three.png")
-        },
-
-      ],
-      technologies: ["JavaScript", "CSS", "EJS", "Herokuapp"],
-      category: "Scoring app for Github",
-      github: "https://github.com/Natain/gitscores",
-      date: "Aug, 2021 - Sep, 2021",
-      visit: "https://gitscores.herokuapp.com/",
-      description:
-        "Gitscores v1.0.2 was updated from the orginal with more tools that let you personalize the app on your desingn."
+      description:  "",
     }
   ],
    recommendations: [
