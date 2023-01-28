@@ -150,54 +150,167 @@ let info = {
   certificates: [
 
     {
-      name: "AWS Certified Developer - Associate",
+      name: "AWS Certified Developer - Architect",
       pictures: [
         {
-          img: require("./src/assets/certificates/developer/developer.jpeg")
+          img: require("./src/assets/certificates/architect/Architect.png")
         }
       ],
       technologies: [],
       category: "",
       github: "https://github.com/Natain/todo-application",
-      visit: "https://natainbogdan.netlify.app/",
+      visit: "https://www.credly.com/badges/9c5423d1-c31c-44f8-9405-6d199d6ebc8d",
       description:""
     },
-
-
 
     {
       name: "AWS Certified Developer Associate ",
       pictures: [
         {
-          img: require("./src/assets/certificates/architect/architect.jpeg")
+          img: require("./src/assets/certificates/developer/developer.png")
         }
       ],
       technologies: [],
-      category: "Web App",
+      category: "",
       github: "https://github.com/Natain/grocery-listing-react",
       date: "",
-      visit: "https://grocery-listing-react.netlify.app/",
+      visit: "https://www.credly.com/badges/3e34cf1d-0ab1-4a79-9397-b213ed80bfde",
       description:  "",
     }
   ],
    recommendations: [
+
     {
       title:
-        "In his internship, Jaydip Barvaliya has demonstrated excellent learning ability, and with a dedicated, task oriented approach, he was able to complete his assignment ahead of time.",
-      author: "Timothy Gray",
-      position: "CTO",
-      company: "Startup Norway As",
-      location: " Oslo, Norway"
+        "Jaydip and I put our first step in the IT industry together at OneAdvanced. However, within a short span of time Jaydip had gained tons of technical insight, and his learning and grasping ability can definitely make anyone jaw-dropped. He had joined advanced as a Developer. Nevertheless, he molded himself in a way that he was single handly managing the projects without any hassle even it requires full-stack or DevOps stuff. I would definitely recommend him for any IT industry because learning with little effort can be an asset for any company.",
+      author: "Karan Patel",
+      position: "Quality Assurance Engineer",
+      company: "Amazon",
+      location: "California, United States"
+    },
+
+
+    {
+      title:
+        "Jaydip is a knowledgeable, dedicated and most of all helpful team member. Not only were his skills invaluable to the team but his approachability and pleasant demeanor were a boost to team morale. He is highly recommended for any roles within his qualification.",
+      author: "Parthiv Barot",
+      position: "Test Manager",
+      company: "IBM",
+      location: "Nova Scotia, Canada"
+    },
+
+    
+
+    {
+      title:
+        "He's a bright student who is always eager to learn, and I mostly found him immersed in technical activities, learning new and complex systems. He has the ability to persuade the public through the use of facts. Jaydip comes highly recommended by me as a software engineer.",
+      author: "Dr. Savita Seharawat",
+      position: "Data Scientist",
+      company: "York Region",
+      location: " Toronto, Canada"
     },
     {
       title:
-        "I feel his budding leadership abilities will become even more effective in a diverse and challenging environment.",
-      author: "Hansley Jacob",
-      position: "Project Manager",
-      company: "Startup Norway As",
-      location: "Oslo, Norway"
+        "Jaydip is a brilliant student who I taught, working hard and smart. He shows ability to manage difficult task in group-wise, creative manner.",
+      author: "Yanjie(Vicky) Tao",
+      position: "Instructor",
+      company: "St.Clair College",
+      location: "Toronto, Canada"
+    },
+    {
+      title:
+        "Rarely do postgraduate students come with as much drive as Jaydip. When he was a second year student, he took two of my Healthcare and Project Management classes. During that time, I was impressed by his ability to connect topics covered in class with both case studies and of-the-minutes answers. The way he grasps any new technical jargon in his field is really impressive. I would really recommend him to any tech giant.",
+      author: "Matt Mostofi",
+      position: "Data Scientist ",
+      company: "Georgian@ILAC",
+      location: "Toronto, Canada"
+    },
+
+    {
+      title:
+        "Jaydeep started his career with me. I remember how he was curious to learn during the training. He is such a talented software developer that he can do any task within the timeline. He is always hungry to learn new technology. He is very spontaneous and dedicated towards his work.he does his duty like he is doing that for himself. I personally like him because of his talent and friendly in nature and most important he is always ready to help his colleagues.there is no question that he can be an asset for any IT company.",
+      author: "Ramiz Siddique",
+      position: "Sr QA Engineer",
+      company: "LoudCloud Systems Inc",
+      location: "Maharashtra, India"
+    },
+
+    {
+      title:
+        "Jaydip Barvaliya, whom I have known as an undergraduate student of Information Technology engineering since his 1st academic year in my capacity as his Professor, Seminar supervisor, and project guide. During this time, he had consistently exhibited a high degree of dedication towards his academic curriculum. He is one of the most creative, intelligent and capable individuals.",
+      author: "Nileshkumar KakadeNileshkumar Kakade",
+      position: "Senior Technical Trainer",
+      company: "SmartCliff",
+      location: "Tamil Nadu, India"
+    },
+
+    
+
+    
+
+    {
+      title:
+        "Extremely curious person with unbelievable degree to learn new stuff and excel in no time that's how I would describe Jaydip. I'd definitely recommend him to any firm because he has got really demonstrable capabilities which goes well beyond his CV.",
+      author: "Pratik Sheth",
+      position: "Cloud Architect",
+      company: "Pathlock",
+      location: "Bengaluru, Karnataka, IndiaBengaluru"
+    },
+
+    {
+      title:
+        "We are not in same industry, but since school time I know him. The way he think when it comes to technical perspective that's lit. He always learn, love and endorse computer jargons. He has been mentoring for technical ideas, various projects, geeky notions to tons of people and some of them are his seniors, also. I'm proud of having him in best friend list like Jaydip. His wit nature can make any tough work environment easy. He will be great asset for any needed company.",
+      author: "Raj Monpara",
+      position: "Derivatives Analyst",
+      company: "Jainam Share Consultants Pvt. Ltd",
+      location: "Surat, Gujarat, India"
+    },
+
+    {
+      title:
+        "Energetic, Creative and Explorer are the words which describe Jaydip the best. He is always ready for the job which is presented to him and always finding ways to make it more efficient based on his knowledge.. In my experience of working with Jaydip for almost 2 years I never saw him troubled for any task assigned as he always had the confidence to do it. His quick actions in resolving issues is a thing to note. He is a quick learner and was working with some of the best minds of the organisation in no time after being part of the team. I still remember the project where we had to recreate a legacy product on cloud and Jaydip played a key role to make the work look effortless. His cheerful nature and wit is something I will always miss around office.",
+      author: "Rishabh Sharma",
+      position: "Senior Test Engineer",
+      company: "Advanced",
+      location: "Vadodara, Gujarat, India"
+    },
+
+    {
+      title:
+        "I had the pleasure of working with Jaydip in the same team over multiple projects. He is an excellent teammate and passionate about his work. He is a very keen learner which supports his agility to blend in the company's work and culture. Jaydip would be a valuable asset to any company.",
+      author: "Priyal Jadav",
+      position: "CloudOps Analyst",
+      company: "PMC Retail",
+      location: "Vadodara, Gujarat, India"
+    },
+
+    {
+      title:
+        "I rarely come across real talents who stand out like Jaydip. Dedicated, Good listener, Hardworking, Good Learning appetite are the attributes one will observe while working with him, I had the pleasure of working with Jaydip, I highly recommend and wish him a great career ahead.",
+      author: "Himanshu Chaudhari",
+      position: "Senior Database Administrator",
+      company: "Advanced",
+      location: "Vadodara, Gujarat, India"
+    },
+
+    {
+      title:
+        "Jaydip is a very dedicated and workaholic guy who strives for continuous improvement in his work and skill sets, He is a great team player, He manages any tasks given to him very well, He thinks quickly on his feet and that is one of the best qualities he has.",
+      author: "Rajni Barvaliya",
+      position: "Sr. Coldfusion Developer",
+      company: "iSummation Technologies Pvt Ltd",
+      location: "Ahmedabad, Gujarat, India"
+    },
+
+    {
+      title:
+        "Although Jaydip joined my team as a fresher, he immediately demonstrated a remarkable ability of learning new things very quickly. His problem solving skills are really good. His ability to work on different areas like backend, frontend as well as DevOps makes him an asset to any team. Highly recommended to work for any team.",
+      author: "Prem Rawal",
+      position: "Senior Staff Software Architect",
+      company: "infoDesk",
+      location: "Vadodara, Gujarat, India"
     }
-  ]
+    ]
 };
 
 export default info;

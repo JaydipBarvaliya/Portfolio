@@ -16,10 +16,10 @@
           alt="Card image cap"
         />
       </div>
-      <div class="card-body pborder-top">
+      <div class="card-body pborder-top text-center">
         <h5 class="title2">{{ certificate.name }}</h5>
         <div>
-          <div class="pb-1 bheight">
+          <!-- <div class="pb-1 bheight">
             <span
               class="badge mr-2 mb-2 "
               v-for="tech in certificate.technologies"
@@ -27,9 +27,9 @@
               :class="{ 'bg-dark4': nightMode }"
               >{{ tech }}</span
             >
-          </div>
+          </div> -->
           <p
-            class="title3 m-0 pb-2 pheight pt-1"
+            class="title3 m-10 pb-2 pheight pt-1"
             v-html="
               certificate.description.length > 100
                 ? certificate.description.substring(0, 105) + '...'
@@ -39,21 +39,8 @@
           </p>
         </div>
         <div class="text-center mt-2">
-          <button
-            href=""
-            class="btn-sm btn btn-outline-secondary no-outline"
-            @click.prevent="showModal"
-          >
-            read more
-          </button>
-          <button
-            href="#"
-            class="btn-sm btn btn-outline-secondary no-outline ml-4"
-            v-if="certificate.visit"
-            @click.prevent="open(certificate.visit)"
-          >
-            visit website
-          </button>
+          <button href=""  class="btn-sm btn btn-outline-secondary no-outline" @click.prevent="showModal" > Full View </button>
+          <button href="#" class="btn-sm btn btn-outline-secondary no-outline ml-4" v-if="certificate.visit" @click.prevent="open(certificate.visit)">Show credential</button>
         </div>
       </div>
     </div>

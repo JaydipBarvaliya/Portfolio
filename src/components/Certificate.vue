@@ -19,10 +19,7 @@
       </div>
 
       
-      <hr
-        width="50%"
-        :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
-      />
+      <hr width="50%" :class="{ pgray: !nightMode, 'bg-secondary': nightMode }" />
 
       <vue-tabs :activeTextColor="!nightMode ? '#535A5E' : '#dfdfdf'">
 
@@ -30,7 +27,7 @@
           <br />
           <div class="row">
             <div
-              class="col-xl-4 col-bg-4 col-md-6 col-sm-12"
+              class="col-xl-6 col-bg-6 col-md-6 col-sm-6"
               v-for="(certificate, idx) in certificates"
               :key="certificate.name"
             >
@@ -58,7 +55,7 @@
         <!-- <v-tab title="design">
           <div class="row">
             <div
-              v-for="(design, idx) in desgin_info"
+              v-for="(design, idx) in design_info"
               :key="idx"
               :class="{ 'mt-4': idx === 0 ? true : true }"
               class="col-xl-6 col-bg-6 col-md-12 col-sm-12"
@@ -163,7 +160,7 @@ export default {
   data() {
     return {
       all_info: info.certificates,
-      desgin_info: info.portfolio_design,
+      // design_info: info.portfolio_design,
       certificates: [],
       showModal: false,
       showDesignModal: false,
@@ -208,10 +205,10 @@ export default {
       this.modal_info = certificate;
       this.showModal = true;
     },
-    showDesignModalFn(design_portfolio) {
-      this.design_modal_info = design_portfolio;
-      this.showDesignModal = true;
-    },
+    // showDesignModalFn(design_portfolio) {
+    //   this.design_modal_info = design_portfolio;
+    //   this.showDesignModal = true;
+    // },
     showMore() {
       if (this.number != this.all_info.length) {
         this.number += 3;
@@ -255,10 +252,10 @@ export default {
   font-weight: 400;
 }
 
-.title3 {
+/* .title3 {
   font-size: 16px;
   font-weight: 400;
-}
+} */
 
 .modal-enter {
   opacity: 0;

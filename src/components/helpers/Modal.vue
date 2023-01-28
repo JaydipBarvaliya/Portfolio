@@ -11,37 +11,20 @@
           }"
         >
           <div class="title1 px-4 pt-3">
-            <span
-              ><a
-                href="#"
-                @click.prevent="open(portfolio.visit)"
-                :class="{ 'text-light': nightMode }"
-                >{{ portfolio.name }}</a
-              ></span
-            >
-            <a
-              class="pull-right"
-              style="font-size: 18px;"
-              @click="$emit('close')"
-              ><i class="fas fa-times"></i
-            ></a>
-            <hr
-            
-              class="my-1"
-              :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
-            />
+            <span>
+              <a href="#" @click.prevent="open(certificate.visit)" :class="{ 'text-light': nightMode }" >{{ certificate.name }}</a ></span>
+              <a class="pull-right" style="font-size: 18px;" @click="$emit('close')" ><i class="fas fa-times"></i></a>
+            <hr class="my-1" :class="{ pgray: !nightMode, 'bg-secondary': nightMode }" />
           </div>
+
           <div class="modal-body my-0 pb-0 px-4 pt-0">
-            <div
-              class="mb-2 date"
-              :class="{ 'text-light': nightMode, pbgray: nightMode }"
-            >
-              <span>{{ portfolio.date }} • {{ portfolio.category }}</span>
+            <div class="mb-2 date" :class="{ 'text-light': nightMode, pbgray: nightMode }" >
+              <span>{{ certificate.date }} {{ certificate.category }}</span>
             </div>
             <div class="pb-1 bheight">
               <span
                 class="badge mr-2 mb-2"
-                v-for="tech in portfolio.technologies"
+                v-for="tech in certificate.technologies"
                 :key="tech"
                 :class="{ 'bg-dark4': nightMode }"
                 >{{ tech }}</span
@@ -49,11 +32,11 @@
             </div>
 
             <div style="text-align: justify;">
-              <span v-html="portfolio.description"></span>
+              <span v-html="certificate.description"></span>
             </div>
             <hr />
             <div>
-              <Gallery :images="portfolio.pictures" />
+              <Gallery :images="certificate.pictures" />
             </div>
           </div>
 
@@ -62,7 +45,7 @@
               class="mt-1 mb-3"
               :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
             />
-            <button class="btn w-25 mr-3" @click="open(portfolio.github)">
+            <button class="btn w-25 mr-3" @click="open(certificate.github)">
               github
             </button>
             <button class="btn w-25" @click="$emit('close')">close</button>
@@ -74,6 +57,7 @@
 </template>
 
 <script>
+// import { Certificate } from "crypto";
 import Gallery from "./Gallery";
 
 export default {
@@ -85,7 +69,7 @@ export default {
     showModal: {
       type: Boolean,
     },
-    portfolio: {
+    certificate: {
       type: Object,
     },
     nightMode: {

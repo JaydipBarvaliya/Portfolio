@@ -12,7 +12,7 @@
         >
           <div class="title1 px-4 pt-3">
             <span :class="{ 'text-light': nightMode }">{{
-              portfolio.name
+              certificates.name
             }}</span>
             <a
               class="pull-right"
@@ -31,12 +31,12 @@
               class="mb-2 date"
               :class="{ 'text-light': nightMode, pbgray: nightMode }"
             >
-              <span>{{ portfolio.date }} • {{ portfolio.category }}</span>
+              <span>{{ certificates.date }} • {{ certificates.category }}</span>
             </div>
             <div class="pb-1 bheight">
               <span
                 class="badge mr-2 mb-2"
-                v-for="tech in portfolio.technologies"
+                v-for="tech in certificates.technologies"
                 :key="tech"
                 :class="{ 'bg-dark4': nightMode }"
                 >{{ tech }}</span
@@ -44,11 +44,11 @@
             </div>
 
             <div style="text-align: justify;">
-              <span v-html="portfolio.description"></span>
+              <span v-html="certificates.description"></span>
             </div>
             <hr />
             <div>
-              <Gallery :images="portfolio.pictures" :design="true" />
+              <Gallery :images="certificates.pictures" :design="true" />
             </div>
           </div>
 
@@ -77,7 +77,7 @@ export default {
     showModal: {
       type: Boolean,
     },
-    portfolio: {
+    certificates: {
       type: Object,
     },
     nightMode: {

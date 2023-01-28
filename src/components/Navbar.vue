@@ -54,10 +54,10 @@
             <li class="nav-item mx-2 ">
               <a
                 class="nav-link"
-                href="/portfolio"
-                @click.prevent="$emit('scroll', 'portfolio')"
+                href="/certifications"
+                @click.prevent="$emit('scroll', 'certifications')"
                 :class="{ 'text-light': nightMode }"
-                >portfolio</a
+                >certifications</a
               >
             </li>
             <li class="nav-item mx-2">
