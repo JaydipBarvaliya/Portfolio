@@ -105,13 +105,13 @@ export default {
 img {
   max-width: 300px;
   margin-top: 60px;
-  transform: rotateY(180deg);
+  /* transform: rotateY(180deg); */
 }
 
 @media only screen and (max-width: 580px) {
   img {
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 100%;
     height: 200px;
     width: 200px;
     margin-top: 10px;

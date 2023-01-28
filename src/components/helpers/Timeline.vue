@@ -3,6 +3,7 @@
     <div class="mx-3 mt-3 mb-5">
       <div class="row">
         <div class="col-xl-12 col-bg-12 col-md-12 col-sm-12">
+         
           <p
             class="title1"
             data-aos="fade"
@@ -13,6 +14,8 @@
           >
             {{ data.title }}
           </p>
+
+          
           <ul
             class="timeline m-0 pt-1"
             v-for="(e, idx) in data.data"
@@ -28,14 +31,9 @@
             <li class="m-0 pb-2">
               <div>
                 <div class="px-2 title2">{{ e.name }}, {{ e.place }}</div>
-                <div class="px-2 title3">
-                  {{ e.degree || e.position }}
-                  {{ e.gpa ? "(" + e.gpa + ")" : "" }}
-                </div>
+                <div class="px-2 title3"> {{ e.degree || e.position }} {{ e.gpa ? "(" + e.gpa + ")" : "" }}</div>
                 <div class="px-2 date">{{ e.date }}</div>
-                <div class="px-2 pb-2 pt-2" style="text-align: justify;">
-                  {{ e.description }}
-                </div>
+                <div class="px-2 pb-2 pt-2" style="text-align: justify;">{{ e.description }}</div>
                 <span
                 
                   class="mx-2 badge p-2 mb-2"

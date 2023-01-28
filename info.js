@@ -9,7 +9,7 @@ let info = {
     }
   },
   description:
-    "I'm a Front-end  Web Developer with a passion for building projects that are used routinely. Building applications in JavaScript. Former supervisor and finance professional who's eager to enhance a company's user experience. ",
+    "I define myself as a 𝐅𝐮𝐥𝐥 𝐒𝐭𝐚𝐜𝐤 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 who also loves 𝐀𝐖𝐒 𝐜𝐥𝐨𝐮𝐝!. Always curious to learn and discuss technology. I have proficiency in different 𝐁𝐚𝐜𝐤-𝐄𝐧𝐝 & 𝐅𝐫𝐨𝐧𝐭-𝐄𝐧𝐝 𝐭𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐢𝐞𝐬 𝐚𝐧𝐝 𝐅𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤𝐬 and have worked a lot on them as well as on 𝐒𝐞𝐫𝐯𝐞𝐫 𝐈𝐧𝐟𝐫𝐚𝐬𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐞. ",
   links: {
     linkedin: "https://www.linkedin.com/in/jaydip-barvaliya/",
     github: "https://github.com/JaydipBarvaliya",
@@ -22,21 +22,13 @@ let info = {
       date: "May, 2021 - Aug, 2022",
       degree: "Data Analytics For Business",
       gpa: "3.9/4.0",
-
-      skills: [
-        // "Skills gained:",
-        // "Design, conduct and interpret research and statistical analysis. ",
-        // "Apply an evidence-based approach to problems.",
-        // "Communicate findings using models, charts and graphs.",
-        // "Communicate research findings using clear, accurate, concise writing.",
-
-
-      ]
+      description:"",
+      skills: []
     },
     {
       name: "Parul University",
       course:"Information & Technology",
-      place: "Gujaratm, India",
+      place: "Gujarat, India",
       date: "Apr, 2014 - Apr, 2018",
       degree: "Bachelor Of Engineering",
       gpa: "8.0/9",
@@ -46,29 +38,56 @@ let info = {
   experience: [
 
     {
-      name: "Sr. Software Engineer I at Cognizant",
+      name: "Cognizant",
       place: "Mississauga, Canada",
-      date: "Aug, 2021 - Present",
-      position: "",
-      description:"Demo Description",
+      position: "Sr. Software Engineer I",
+      date: "Aug, 2022 - Present",      
+      description:"",
       skills: []
     },
-
+    {
+      name: "Sunflower Lab",
+      place: "Gujarat, India",
+      position: "DevOps Engineer",
+      date: "Dec 2020 - Oct 2021",      
+      description:"",
+      skills: []
+    },
+    {
+      name: "Advanced",
+      place: "Gujarat, India",
+      position: "Full Stack Developer",
+      date: "Jun 2018 - Dec 2020",      
+      description:"",
+      skills: []
+    },
+    {
+      name: "STL - Sterlite Technologies",
+      place: "Gujarat, India",
+      position: "Jr. Software Engineer",
+      date: "Jan 2018 - Jun 2018",      
+      description:"",
+      skills: []
+    }
   ],
   skills: [
     {
-      title: "languages",
+      title: "Languages",
+      info: [
+        "Java"
+      ],
+      icon: "fa fa-code"
+    },
+    {
+      title: "Frameworks",
       info: [
         "Spring-Boot",
         "Hibernate",
+        "JPA",
+        "Spring Security",
+        "Maven",
+        "JUnit"
 
-      ],
-      icon: "fa fa-aws"
-    },
-    {
-      title: "data frameworks",
-      info: [
-        "Pillow"
       ],
       icon: "fa fa-cubes"
     },
@@ -77,16 +96,25 @@ let info = {
       info: ["Vue.js",  "React.js", "Node.js", "HTML", "CSS"],
       icon: "fas fa-laptop-code"
     },
+  
+    {
+      title: "Cloud",
+      info: ["Illustrator", "XD", "Photoshop", "Final Cut Pro"],
+      icon: "fa fa-cloud"
+    },
+
     {
       title: "databases",
-      info: ["MongoDB", "MySQL", "OracleSQL",],
+      info: ["MySQL", "PostGreSQL",],
       icon: "fa fa-database"
     },
+
+    
     {
-      title: "operating systems & tools",
+      title: "DevOps Tools",
       info: [
-        "MacOS",
-        "Windows",
+        "Jenkins",
+        "Docker",
         "Android",
         "Scrum",
         "Heroku",
@@ -94,11 +122,6 @@ let info = {
         "AWS S3"
       ],
       icon: "fas fa-tools"
-    },
-    {
-      title: "design",
-      info: ["Illustrator", "XD", "Photoshop", "Final Cut Pro"],
-      icon: "fa fa-pencil-square-o"
     }
   ],
   portfolio: [
