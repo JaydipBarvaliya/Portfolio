@@ -58,7 +58,9 @@ let info = {
       skills: [
         "Leadership",
         "Tech Lead",
-        "Cloud Architect"
+        "Cloud Architect",
+        "Terraform",
+        "Production Handler"
       ]
     },
     {
