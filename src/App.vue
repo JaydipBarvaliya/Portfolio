@@ -67,7 +67,7 @@ export default {
     scrollTo(ele) {
       if (ele == "home") {
         this.$router.push(`/`);
-        window.scrollTo({ top: -160, behavior: "smooth" });
+        window.scrollTo({ top: -80, behavior: "smooth" });
       } else {
         var elementPosition = document.getElementById(ele).offsetTop;
         window.scrollTo({ top: elementPosition - 35, behavior: "smooth" });

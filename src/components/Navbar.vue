@@ -56,7 +56,7 @@
               <a
                 class="nav-link"
                 href="/certifications"
-                @click.prevent="$emit('scroll', 'certifications')"
+                @click.prevent="$emit('scroll', 'certificate')"
                 :class="{ 'text-light': nightMode }"
                 >certifications</a
               >
