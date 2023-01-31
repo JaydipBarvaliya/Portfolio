@@ -50,7 +50,7 @@ export default {
     }
   },
   mounted() {
-    ["about", "skills", "certificate", "recommendation", "contact"].forEach((l) => {
+    ["me","about", "skills", "certificate", "recommendation", "contact"].forEach((l) => {
       if (window.location.href.includes(l)) {
         var elementPosition = document.getElementById(l).offsetTop;
         window.scrollTo({ top: elementPosition - 35, behavior: "smooth" });
@@ -65,6 +65,8 @@ export default {
       this.nightMode = mode;
     },
     scrollTo(ele) {
+
+      
       if (ele == "home") {
         this.$router.push(`/`);
         window.scrollTo({ top: -80, behavior: "smooth" });

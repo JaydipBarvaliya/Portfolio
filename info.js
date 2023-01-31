@@ -23,7 +23,11 @@ let info = {
       degree: "Data Analytics For Business",
       gpa: "3.9/4.0",
       description:"",
-      skills: []
+      skills: [
+        "Data Structure",
+        "Algorithms",
+        "System Design"
+      ]
     },
     {
       name: "Parul University",
@@ -32,7 +36,13 @@ let info = {
       date: "Apr, 2014 - Apr, 2018",
       degree: "Bachelor Of Engineering",
       gpa: "8.0/9",
-      description:""
+      description:"",
+      skills: [
+        "Github",
+        "Bit of C/C++",
+        "HTML",
+        "CSS"
+      ]
     }
   ],
   experience: [
@@ -43,7 +53,11 @@ let info = {
       position: "Sr. Software Engineer I",
       date: "Aug, 2022 - Present",      
       description:"",
-      skills: []
+      skills: [
+        "Leadership",
+        "Tech Lead",
+        "Cloud Architect"
+      ]
     },
     {
       name: "Sunflower Lab",
@@ -51,7 +65,12 @@ let info = {
       position: "DevOps Engineer",
       date: "Dec 2020 - Oct 2021",      
       description:"",
-      skills: []
+      skills: [
+        "Jenkins",
+        "Ansible",
+        "AWS",
+        "GrayLog"
+      ]
     },
     {
       name: "Advanced",
@@ -59,7 +78,20 @@ let info = {
       position: "Full Stack Developer",
       date: "Jun 2018 - Dec 2020",      
       description:"",
-      skills: []
+      skills: [
+        "Spring Boot",
+        "Spring Security",
+        "Hibernate",
+        "JPA",
+        "REST",
+        "REST Docs",
+        "JUnit",
+        "Maven",
+        "PostGreSQL",
+        "VueJS",
+        "NodeJs",
+        "Mosaic"
+      ]
     },
     {
       name: "STL - Sterlite Technologies",
@@ -67,7 +99,11 @@ let info = {
       position: "Jr. Software Engineer",
       date: "Jan 2018 - Jun 2018",      
       description:"",
-      skills: []
+      skills: [
+        "Core Java",
+        "Shell Scripting",
+        "Support"
+      ]
     }
   ],
   skills: [

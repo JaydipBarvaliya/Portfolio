@@ -14,7 +14,7 @@
         <span
           class="title text-center"
           :class="{ pgray: !nightMode, 'text-light': nightMode }"
-          >Certifications</span
+          >certifications.</span
         >
       </div>
 

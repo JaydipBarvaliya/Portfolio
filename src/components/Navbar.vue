@@ -32,13 +32,24 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item mx-2">
+              <a
+                class="nav-link"
+                href="/"
+                @click.prevent="$emit('scroll', 'home')"
+                :class="{ 'text-light': nightMode }"
+                >me</a
+              >
+            </li>
+
             <li class="nav-item mx-2">
               <a
                 class="nav-link"
                 href="/about"
                 @click.prevent="$emit('scroll', 'about')"
                 :class="{ 'text-light': nightMode }"
-                >about</a
+                >experience</a
               >
             </li>
             
