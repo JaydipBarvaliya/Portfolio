@@ -211,7 +211,7 @@ export default {
     // },
     showMore() {
       if (this.number != this.all_info.length) {
-        this.number += 3;
+        this.number += 2;
 
         window.scrollBy({
           top: document.getElementsByClassName("smcard")[0].clientHeight,
