@@ -1,7 +1,7 @@
 let info = {
   name: "Jaydip Barvaliya",
   logo_name: "Jaydip",
-  flat_picture: require("./src/assets/potrait.jpg"),
+  flat_picture: require("./src/assets/test2.png"),
   config: {
     use_cookies: true,
     navbar: {
@@ -9,7 +9,7 @@ let info = {
     }
   },
   description:
-    "I define myself as a Full Stack Developer who also harvest AWS Cloud!. Always curious to learn and discuss technology. I have proficiency in different Back-End & Front-End Technologies and Frameworks and have worked a lot on them as well as on provisioning Infrastructure as Code.",
+    "I define myself as a Full Stack Developer who also harvest AWS Cloud!. Always curious to learn and discuss technology. I have proficiency in different Back-End & Front-End Technologies, Frameworks and have worked a lot on them as well as on provisioning Infrastructure as Code.",
   links: {
     linkedin: "https://www.linkedin.com/in/jaydip-barvaliya/",
     github: "https://github.com/JaydipBarvaliya",
@@ -38,6 +38,8 @@ let info = {
       gpa: "8.0/9",
       description:"",
       skills: [
+        "OOP",
+        "MYSQL",
         "Github",
         "Bit of C/C++",
         "HTML",
@@ -129,7 +131,7 @@ let info = {
       icon: "fa fa-cubes"
     },
     {
-      title: "web technologies",
+      title: "Web Technologies",
       info: ["Vue.js", "React.js", "Node.js", "HTML", "CSS"],
       icon: "fas fa-laptop-code"
     },
@@ -170,7 +172,7 @@ let info = {
         "NIFI",
         "Keycloak"
       ],
-      icon: "fas fa-tools"
+      icon: "fa fa-feather"
     },
 
     {
@@ -192,7 +194,7 @@ let info = {
       ],
       technologies: [],
       category: "",
-      github: "https://github.com/Natain/todo-application",
+      // github: "https://github.com/Jaydip/todo-application",
       visit: "https://www.credly.com/badges/9c5423d1-c31c-44f8-9405-6d199d6ebc8d",
       description:""
     },
@@ -206,7 +208,7 @@ let info = {
       ],
       technologies: [],
       category: "",
-      github: "https://github.com/Natain/grocery-listing-react",
+      github: "https://github.com/Jaydip/grocery-listing-react",
       date: "",
       visit: "https://www.credly.com/badges/3e34cf1d-0ab1-4a79-9397-b213ed80bfde",
       description:  "",

@@ -95,4 +95,17 @@ export default {
   /* font-weight: bold; */
   transition: all 0.5s;
 }
+
+
+.fa {
+  color: rgb(212, 149, 97);
+  font-size: 40px;
+  transition: all 0.5s;
+}
+
+.fab {
+  color: rgb(212, 149, 97);
+  font-size: 40px;
+  transition: all 0.5s;
+}
 </style>
