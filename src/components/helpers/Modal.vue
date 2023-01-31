@@ -45,9 +45,7 @@
               class="mt-1 mb-3"
               :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
             />
-            <button class="btn w-25 mr-3" @click="open(certificate.github)">
-              github
-            </button>
+            <!-- <button class="btn w-25 mr-3" @click="open(certificate.github)">github</button> -->
             <button class="btn w-25" @click="$emit('close')">close</button>
           </div>
         </div>
