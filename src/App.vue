@@ -6,7 +6,7 @@
       <About id="about" :nightMode="nightMode" />
       <Skills id="skills" :nightMode="nightMode" />
       <Certificate id="certificate" :nightMode="nightMode" />
-      <Recommendation :nightMode="nightMode" />
+      <Recommendation id="recommendation" :nightMode="nightMode" />
       <Contact id="contact" :nightMode="nightMode" />
       <Footer :nightMode="nightMode" />
     </div>
@@ -50,7 +50,7 @@ export default {
     }
   },
   mounted() {
-    ["about", "contact", "skills", "certificates"].forEach((l) => {
+    ["about", "skills", "certificate", "recommendation", "contact"].forEach((l) => {
       if (window.location.href.includes(l)) {
         var elementPosition = document.getElementById(l).offsetTop;
         window.scrollTo({ top: elementPosition - 35, behavior: "smooth" });
@@ -67,7 +67,7 @@ export default {
     scrollTo(ele) {
       if (ele == "home") {
         this.$router.push(`/`);
-        window.scrollTo({ top: -80, behavior: "smooth" });
+        window.scrollTo({ top: -160, behavior: "smooth" });
       } else {
         var elementPosition = document.getElementById(ele).offsetTop;
         window.scrollTo({ top: elementPosition - 35, behavior: "smooth" });

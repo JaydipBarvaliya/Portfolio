@@ -68,7 +68,7 @@
                 href="/recommendation"
                 @click.prevent="$emit('scroll', 'recommendation')"
                 :class="{ 'text-light': nightMode }"
-                >recommendation</a
+                >recommendations</a
               >
             </li>
 
