@@ -51,6 +51,7 @@
                 >skills</a
               >
             </li>
+
             <li class="nav-item mx-2 ">
               <a
                 class="nav-link"
@@ -60,6 +61,18 @@
                 >certifications</a
               >
             </li>
+
+            <li class="nav-item mx-2">
+              <a
+                class="nav-link"
+                href="/recommendation"
+                @click.prevent="$emit('scroll', 'recommendation')"
+                :class="{ 'text-light': nightMode }"
+                >recommendation</a
+              >
+            </li>
+
+
             <li class="nav-item mx-2">
               <a
                 class="nav-link"
@@ -69,6 +82,7 @@
                 >contact</a
               >
             </li>
+
             <li class="nav-item ml-2">
               <a
                 class="nav-link"
@@ -84,6 +98,8 @@
                 ></i
               ></a>
             </li>
+
+
           </ul>
         </div>
       </div>
