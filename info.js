@@ -17,7 +17,7 @@ let info = {
   },
   education: [
     {
-      name: "St Clair College",
+      name: "St. Clair College",
       place: "Toronto, Canada",
       date: "May, 2021 - Aug, 2022",
       degree: "Data Analytics For Business",
